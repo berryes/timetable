@@ -1,0 +1,108 @@
+{
+	"info": {
+		"_postman_id": "1e2dd9c3-007d-4169-b775-5ae4b6371923",
+		"name": "timetable",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Timetable",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{host}}/timetable?class=12B",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"timetable"
+					],
+					"query": [
+						{
+							"key": "class",
+							"value": "12B"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Timetable create",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"hetfo\":[\n        {\n            \"tantargyId\": \"cc5fca568b0c-4c02-9ae4-172073d0096e\",\n            \"tanarId\": \"db3c6783-5381-47db-ba3d-21c540202ee1\",\n            \"terem\": \"Kajtor\"\n        },\n        {\n            \"tantargyId\": \"cc5fca568b0c-4c02-9ae4-172073d0096e\",\n            \"tanarId\": \"db3c6783-5381-47db-ba3d-21c540202ee1\",\n            \"terem\": \"Kajtor\"\n        },\n        {\n            \"tantargyId\": \"cc5fca568b0c-4c02-9ae4-172073d0096e\",\n            \"tanarId\": \"db3c6783-5381-47db-ba3d-21c540202ee1\",\n            \"terem\": \"Kajtor\"\n        },\n        {\n            \"tantargyId\": \"cc5fca568b0c-4c02-9ae4-172073d0096e\",\n            \"tanarId\": \"db3c6783-5381-47db-ba3d-21c540202ee1\",\n            \"terem\": \"Kajtor\"\n        },\n        {\n            \"tantargyId\": \"cc5fca568b0c-4c02-9ae4-172073d0096e\",\n            \"tanarId\": \"db3c6783-5381-47db-ba3d-21c540202ee1\",\n            \"terem\": \"Kajtor\"\n        },\n        {\n            \"tantargyId\": \"cc5fca568b0c-4c02-9ae4-172073d0096e\",\n            \"tanarId\": \"db3c6783-5381-47db-ba3d-21c540202ee1\",\n            \"terem\": \"Kajtor\"\n        }\n    ],\n    \"kedd\":[\n        {\n            \"tantargyId\": \"cc5fca568b0c-4c02-9ae4-172073d0096e\",\n            \"tanarId\": \"db3c6783-5381-47db-ba3d-21c540202ee1\",\n            \"terem\": \"Kajtor\"\n        },\n        {\n            \"tantargyId\": \"cc5fca568b0c-4c02-9ae4-172073d0096e\",\n            \"tanarId\": \"db3c6783-5381-47db-ba3d-21c540202ee1\",\n            \"terem\": \"Kajtor\"\n        },\n        {\n            \"tantargyId\": \"cc5fca568b0c-4c02-9ae4-172073d0096e\",\n            \"tanarId\": \"db3c6783-5381-47db-ba3d-21c540202ee1\",\n            \"terem\": \"Kajtor\"\n        },\n        {\n            \"tantargyId\": \"cc5fca568b0c-4c02-9ae4-172073d0096e\",\n            \"tanarId\": \"db3c6783-5381-47db-ba3d-21c540202ee1\",\n            \"terem\": \"Kajtor\"\n        },\n        {\n            \"tantargyId\": \"cc5fca568b0c-4c02-9ae4-172073d0096e\",\n            \"tanarId\": \"db3c6783-5381-47db-ba3d-21c540202ee1\",\n            \"terem\": \"Kajtor\"\n        },\n        {\n            \"tantargyId\": \"cc5fca568b0c-4c02-9ae4-172073d0096e\",\n            \"tanarId\": \"db3c6783-5381-47db-ba3d-21c540202ee1\",\n            \"terem\": \"Kajtor\"\n        }\n    ],\n    \"szerda\":[\n        {\n            \"tantargyId\": \"cc5fca568b0c-4c02-9ae4-172073d0096e\",\n            \"tanarId\": \"db3c6783-5381-47db-ba3d-21c540202ee1\",\n            \"terem\": \"Kajtor\"\n        },\n        {\n            \"tantargyId\": \"cc5fca568b0c-4c02-9ae4-172073d0096e\",\n            \"tanarId\": \"db3c6783-5381-47db-ba3d-21c540202ee1\",\n            \"terem\": \"Kajtor\"\n        },\n        {\n            \"tantargyId\": \"cc5fca568b0c-4c02-9ae4-172073d0096e\",\n            \"tanarId\": \"db3c6783-5381-47db-ba3d-21c540202ee1\",\n            \"terem\": \"Kajtor\"\n        },\n        {\n            \"tantargyId\": \"cc5fca568b0c-4c02-9ae4-172073d0096e\",\n            \"tanarId\": \"db3c6783-5381-47db-ba3d-21c540202ee1\",\n            \"terem\": \"Kajtor\"\n        },\n        {\n            \"tantargyId\": \"cc5fca568b0c-4c02-9ae4-172073d0096e\",\n            \"tanarId\": \"db3c6783-5381-47db-ba3d-21c540202ee1\",\n            \"terem\": \"Kajtor\"\n        },\n        {\n            \"tantargyId\": \"cc5fca568b0c-4c02-9ae4-172073d0096e\",\n            \"tanarId\": \"db3c6783-5381-47db-ba3d-21c540202ee1\",\n            \"terem\": \"Kajtor\"\n        }\n    ],\n    \"csutortok\":[\n        {\n            \"tantargyId\": \"cc5fca568b0c-4c02-9ae4-172073d0096e\",\n            \"tanarId\": \"db3c6783-5381-47db-ba3d-21c540202ee1\",\n            \"terem\": \"Kajtor\"\n        },\n        {\n            \"tantargyId\": \"cc5fca568b0c-4c02-9ae4-172073d0096e\",\n            \"tanarId\": \"db3c6783-5381-47db-ba3d-21c540202ee1\",\n            \"terem\": \"Kajtor\"\n        },\n        {\n            \"tantargyId\": \"cc5fca568b0c-4c02-9ae4-172073d0096e\",\n            \"tanarId\": \"db3c6783-5381-47db-ba3d-21c540202ee1\",\n            \"terem\": \"Kajtor\"\n        },\n        {\n            \"tantargyId\": \"cc5fca568b0c-4c02-9ae4-172073d0096e\",\n            \"tanarId\": \"db3c6783-5381-47db-ba3d-21c540202ee1\",\n            \"terem\": \"Kajtor\"\n        },\n        {\n            \"tantargyId\": \"cc5fca568b0c-4c02-9ae4-172073d0096e\",\n            \"tanarId\": \"db3c6783-5381-47db-ba3d-21c540202ee1\",\n            \"terem\": \"Kajtor\"\n        },\n        {\n            \"tantargyId\": \"cc5fca568b0c-4c02-9ae4-172073d0096e\",\n            \"tanarId\": \"db3c6783-5381-47db-ba3d-21c540202ee1\",\n            \"terem\": \"Kajtor\"\n        }\n    ],\n    \"pentek\":[\n        {\n            \"tantargyId\": \"cc5fca568b0c-4c02-9ae4-172073d0096e\",\n            \"tanarId\": \"db3c6783-5381-47db-ba3d-21c540202ee1\",\n            \"terem\": \"Kajtor\"\n        },\n        {\n            \"tantargyId\": \"cc5fca568b0c-4c02-9ae4-172073d0096e\",\n            \"tanarId\": \"db3c6783-5381-47db-ba3d-21c540202ee1\",\n            \"terem\": \"Kajtor\"\n        },\n        {\n            \"tantargyId\": \"cc5fca568b0c-4c02-9ae4-172073d0096e\",\n            \"tanarId\": \"db3c6783-5381-47db-ba3d-21c540202ee1\",\n            \"terem\": \"Kajtor\"\n        },\n        {\n            \"tantargyId\": \"cc5fca568b0c-4c02-9ae4-172073d0096e\",\n            \"tanarId\": \"db3c6783-5381-47db-ba3d-21c540202ee1\",\n            \"terem\": \"Kajtor\"\n        },\n        {\n            \"tantargyId\": \"cc5fca568b0c-4c02-9ae4-172073d0096e\",\n            \"tanarId\": \"db3c6783-5381-47db-ba3d-21c540202ee1\",\n            \"terem\": \"Kajtor\"\n        },\n        {\n            \"tantargyId\": \"cc5fca568b0c-4c02-9ae4-172073d0096e\",\n            \"tanarId\": \"db3c6783-5381-47db-ba3d-21c540202ee1\",\n            \"terem\": \"Kajtor\"\n        }\n    ]\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{host}}/timetable/create?class=12B",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"timetable",
+						"create"
+					],
+					"query": [
+						{
+							"key": "class",
+							"value": "12B"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Timetable edit",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"csutortok\":{\n        \"1\":{\n            \"tantargyId\": \"cc5fvcxji1b0c-4132-9xa4-172073d0096e\",\n            \"tanarId\": \"db3c6783-5381-47db-ba3d-21c540202ee1\",\n            \"terem\": \"3\"\n        }\n    }\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{host}}/timetable/edit?class=12B",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"timetable",
+						"edit"
+					],
+					"query": [
+						{
+							"key": "class",
+							"value": "12B"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"variable": [
+		{
+			"key": "HOST",
+			"value": "http://localhost/faur/timetable/server/api/"
+		},
+		{
+			"key": "host",
+			"value": "http://localhost/faur/timetable/server"
+		}
+	]
+}
